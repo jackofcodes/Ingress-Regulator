@@ -1,0 +1,100 @@
+.entry-status-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    width: 200px;
+    height: 100vh; /* Set sidebar height to 100% of viewport height */
+    background-color: #223343; /* Dark navy blue */
+    color: #ffffff; /* White text */
+  }
+
+  .sidecontent {
+    list-style-type: none;
+    padding-top: 100px;
+  }
+
+  .sidecontent {
+    list-style-type: none;
+  }
+  
+  .sidecontent li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .side-content li.selected {
+    background-color: #2c3e50;
+  }
+  
+  .side-content li.active {
+    background-color: #34495e;
+  }
+
+  .back-but {
+    position: absolute; /* Set button to absolute positioning */
+    bottom: 10px; /* Adjust distance from bottom as needed */
+    left: 80px; /* Position button horizontally at 50% of its containing element */
+    transform: translateX(-50%);
+    width: 100px; /* Center button horizontally */
+  }
+
+  .visitorcontent {
+    padding-top: 100px;
+    border-bottom: #d5dbe6 1px;
+  }
+
+  
+  
+  .side-contents {
+    list-style-type: none;
+    padding-top: 85px;
+  }
+  
+  .side-contents li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .side-contents li.selected {
+    background-color: #2c3e50; /* Slightly lighter navy blue */
+  }
+  
+  .visitor-list {
+    margin-left: 20px;
+  }
+  
+  .visitorcontent h2 {
+    color: #f2f2f2; /* Dark navy blue */
+  }
+  
+  .visitor-list .list-group-item {
+    background-color: #eaeff7; /* Light gray */
+    border-color: #eaeff7; /* Light gray */
+  }
+  
+  .visitor-list .list-group-item:hover {
+    background-color: #d5dbe6; /* Slightly darker gray */
+  }
+  
+  .offcanvas {
+    height: 80vh; /* Set offcanvas height to 80% of viewport height */
+  }
+  
+  .offcanvas-header {
+    background-color: #223343; /* Dark navy blue */
+    color: #ffffff; /* White text */
+  }
+  
+  .offcanvas-body {
+    background-color: #ffffff; /* White */
+    color: #223343; /* Dark navy blue text */
+  }
+  
+  .offcanvas-footer {
+    background-color: #f8f9fa; /* Light gray */
+  }
+  

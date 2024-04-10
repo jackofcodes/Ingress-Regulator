@@ -10,7 +10,9 @@
   /* Body styles */
   body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-image: url('D:/PYTHON PROJECTS/Visitor management/visitor-management/src/images/back1.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center;
   }
   
   /* Landing page container */
@@ -18,9 +20,10 @@
     max-width: 900px;
     margin: 0 auto;
     padding: 50px 20px;
+    
   }
   .main {
-    padding-top: 150px;
+    padding-top: 100px;
   }
   
   /* Header styles */
@@ -30,14 +33,15 @@
   }
   
   header h1 {
-    font-size: 36px;
+    font-size: 60px;
     font-weight: bold;
-    color: #333;
+    text-align: right;
+    color: #827c7c;
   }
   
   header p {
     font-size: 18px;
-    color: #666;
+    color: #827c7c;
   }
   
   /* Main content styles */
@@ -63,7 +67,7 @@
   
   .features ul li {
     font-size: 18px;
-    color: #444;
+    color: #827c7c ;
     margin-bottom: 10px;
   }
   
@@ -84,16 +88,18 @@
     font-weight: bold;
     text-decoration: none;
     color: #fff;
-    background-color: #007bff;
+    background-color: #44c6e7 ;
     border: none;
     border-radius: 5px;
     margin-right: 10px;
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
   }
   
   .btn:hover {
     background-color: #0056b3;
   }
+  
   
   /* Footer styles */
   footer {

@@ -1,0 +1,96 @@
+/* CheckOut.css */
+
+.full_check {
+  background-image: url('../../images/back4.avif');
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  min-height: 100vh; /* Ensure the container fills the entire viewport vertically */
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* Container */
+.out_disp {
+  flex-grow: 1; /* Allow the container to grow to fill available space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  
+  border-radius: 10px;
+  margin-top: 150px !important;
+  margin-bottom: 70px !important;
+}
+
+/* Title */
+.title {
+  font-size: 36px; /* Increase font size */
+  margin-bottom: 20px;
+  text-align: center; /* Center align the title */
+  border-bottom: 2px solid whitesmoke; /* Add border bottom for the title */
+  padding: 15px; /* Add padding for spacing */
+  color: whitesmoke;
+}
+
+/* Buttons Container */
+.buttons-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+}
+
+/* Modal Body Input */
+.modal-body input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Modal Footer */
+.modal-footer {
+  background-color: #444;
+  border-top: 1px solid #4CAF50;
+  border-radius: 0 0 10px 10px;
+}
+
+/* Modal Footer Buttons */
+.modal-footer .button {
+  margin-right: 10px;
+}
+
+/* Alert */
+.alert {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Error Alert */
+.alert-error {
+  background-color: #f44336;
+}

@@ -1,0 +1,61 @@
+/* AdminLandingPage.css */
+
+/* Common styles for layout and alignment */
+.admin-landing-page,
+.main-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-landing-page {
+  height: 100vh;
+  background-image: url('../../images/back3.webp'); /* Update image path */
+}
+
+.main-style {
+   /* Adjust for Navbar height */
+  color: #35a29f;
+  background-color: whitesmoke;
+  padding: 15px;
+  margin-top: 90px !important;
+  border-radius: 20px;
+}
+
+.page-heading {
+  font-size: 36px; /* Increase font size */
+  font-family: 'Arial', sans-serif; /* Specify a good font */
+  font-weight: bold; /* Make the font bold */
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+/* Improved button styling */
+.but-color {
+  background-color: #0b666a !important;
+}
+
+.but-color:hover {
+  background-color: #0056b3;
+}
+
+/* Improved card structure */
+.card {
+  margin: 20px;
+  max-width: 600px; /* Adjust max width based on your design */
+}
+
+.card-img-top {
+  max-height: 200px; /* Adjust max height for card images */
+}
+
+.card-body {
+  text-align: center;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+  }
+}

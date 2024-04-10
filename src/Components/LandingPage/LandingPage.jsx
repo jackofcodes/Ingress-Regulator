@@ -6,7 +6,7 @@ const LandingPage = () => {
   return (
     <div className="landing-page main">
       <header>
-        <h1>Welcome to Visitor Management System</h1>
+        <h1>Welcome to Ingress Regulator</h1>
         <p>A simple solution to manage your visitors efficiently</p>
       </header>
       <main>
